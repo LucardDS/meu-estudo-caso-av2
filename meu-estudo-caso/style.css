@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+nav button {
+    margin-right: 10px;
+}
+
+#studentList, #studentDetails {
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.student-item {
+    cursor: pointer;
+    margin: 5px 0;
+}
+
+.student-item:hover {
+    background-color: #eaeaea;
+}

@@ -1,0 +1,20 @@
+{
+  "name": "meu-estudo-caso",
+  "version": "1.0.0",
+  "description": "Simulador de listagem de alunos (web)",
+  "main": "menu.js",
+  "type": "module",
+  "scripts": {
+    "dev": "live-server --port=3000",
+    "start": "npx serve . -l 3000",
+    "test": "jest --runInBand"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^30.2.0",
+    "jsdom": "^27.2.0",
+    "live-server": "^1.2.0",
+    "serve": "^14.2.5"
+  }
+}
